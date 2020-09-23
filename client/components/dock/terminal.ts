@@ -10,6 +10,7 @@ import {SerializeAddon} from "xterm-addon-serialize";
 import {WebLinksAddon} from "xterm-addon-web-links";
 
 export class Terminal {
+  // 静态方法
   static spawningPool: HTMLElement;
 
   static init() {
